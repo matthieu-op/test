@@ -1,4 +1,4 @@
-configure_nginx
+
 
 configure_nginx() {
     NAME=up
@@ -19,3 +19,4 @@ configure_nginx() {
     pkill -HUP nginx
     url_output "${NAME}"
 }
+configure_nginx
