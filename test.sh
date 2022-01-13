@@ -1,3 +1,15 @@
+#!/usr/bin/env bash
+# Appbox installer for Ubuntu 20.04
+#
+# Just run this on your Ubuntu VNC app via SSH or in the terminal (Applications > Terminal Emulator) using:
+# sudo bash -c "bash <(curl -Ls https://raw.githubusercontent.com/coder8338/appbox_installer/Ubuntu-20.04/appbox_installer.sh)"
+#
+# We do not work for appbox, we're a friendly community helping others out, we will try to keep this as uptodate as possible!
+
+set -e
+set -u
+
+export DEBIAN_FRONTEND=noninteractive
 
 
 configure_nginx() {
