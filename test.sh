@@ -1,4 +1,4 @@
-
+configure_nginx
 
 configure_nginx() {
     NAME=up
